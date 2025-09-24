@@ -24,5 +24,32 @@ public class MathApp {
 
         System.out.println(squareRoot);
 
+        int x1 = 5;
+        int y1 = 10;
+        int x2 = 85;
+        int y2 = 50;
+
+        double distance = Math.sqrt(Math.pow(x2 - x1, 2) + Math.pow(y2 - y1, 2));
+
+        System.out.println(distance);
+
+        double absolute = -3.8;
+
+        double abs = Math.abs(absolute);
+
+        System.out.println(abs);
+
+
+        double random = Math.random();
+        System.out.println(random);
+
+        int minuteIntoHour = 60;
+
+        int minuteIntoDay = Math.multiplyExact(24, minuteIntoHour);
+
+        int twentyFourDayIntoMinute = Math.multiplyExact(24, minuteIntoDay);
+
+        System.out.println(twentyFourDayIntoMinute);
+
     }
 }
